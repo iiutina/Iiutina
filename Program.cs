@@ -4,18 +4,18 @@
  выполнения алгоритма.
  */
  
-   string [] array={"hello","2","world",":-)"};
+   string [] array={"hello","2","world",":-)"};//задан массив
    string [] array01= new string[array.Length];
 
         for (int i=0;i< array.Length; i++)
     {
-        if (array[i].Length<=3)
+        if (array[i].Length<=3)//проверяется условие, длина строки меньше либо равно 3 символа
         {
-            array01[i]=array[i];
+            array01[i]=array[i];//если условие выполняется, формируется новый массив из строк
            
         }
 
-       Console.Write ( array01[i] + " ");   
+       Console.Write ( array01[i] + " ");   // вывод значения
     }
         
    
